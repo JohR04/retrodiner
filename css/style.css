@@ -347,12 +347,16 @@ img {
 	background-position :center center;
 	background-repeat :repeat-y;
 }
-#body .content div div h2,
+#body .content div div h3,
 #body .content div div h4 {
 	font-size :24px;
 	color :#822619;
 	font-family :'Lobster1.4Regular';
 	font-weight :normal;
+}
+#body .content div div h3.category-title {
+	font-size :36px;
+	color :#1b6568;
 }
 #body .content div div p {
 	font-family :'NunitoRegular';
@@ -393,7 +397,8 @@ img {
 #body .content div div ul li.last {
 	border :none;
 }
-#body .content div div ul li h2 a {
+#body .content div div ul li h3 a,
+#body .content div div ul li h4 a {
 	font-family :'Lobster1.4Regular';
 	font-size :24px;
 	color :#822619;
